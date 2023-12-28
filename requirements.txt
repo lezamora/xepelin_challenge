@@ -1,0 +1,20 @@
+# external requirements
+black
+click
+cryptography
+flake8
+hdfs
+ibis-framework
+impyla
+isort
+joblib
+notebook
+pandas
+pre-commit
+PyMySQL
+pytest
+pytest-cov
+python-dotenv
+pytz
+SQLAlchemy
+tox

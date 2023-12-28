@@ -1,0 +1,18 @@
+[tool.nbqa.addopts]
+
+# Flake configuration
+flake8 = [
+    "--max-line-length=150",
+    "--extend-ignore=E203,E501",
+    "--color=always"
+]
+
+# Isort configuration
+isort = [
+    "--profile=black"
+]
+
+[tool.nbqa.dont_skip_bad_cells]
+black = true
+flake8 = true
+isort = true
