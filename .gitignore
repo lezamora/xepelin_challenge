@@ -129,6 +129,7 @@ dmypy.json
 
 # vs stuff
 .vscode/
+.DS_Store
 
 # Internal data
 data/
