@@ -1,13 +1,4 @@
-threshold,test_Precisión (Negativo),test_Precisión (Positivo),test_Recall (Negativo),test_Recall (Positivo),test_F1-Score (Negativo),test_F1-Score (Positivo),test_Exactitud,run_timestamp,model
-0.5,0.72,0.49,0.66,0.56,0.69,0.52,0.62,20231229_155800,DecisionTreeClassifier
-0.5,0.77,0.58,0.74,0.61,0.75,0.59,0.69,20231229_155800,RandomForestClassifier
-0.5,0.73,0.55,0.75,0.53,0.74,0.54,0.67,20231229_155800,XGBClassifier
-0.5,0.72,0.5,0.68,0.54,0.7,0.52,0.63,20231229_155839,DecisionTreeClassifier
-0.5,0.78,0.65,0.8,0.62,0.79,0.63,0.74,20231229_155839,RandomForestClassifier
-0.5,0.73,0.55,0.75,0.53,0.74,0.54,0.67,20231229_155839,XGBClassifier
-0.5,0.72,0.49,0.66,0.56,0.69,0.52,0.62,20231229_160027,DecisionTreeClassifier
-0.5,0.77,0.58,0.74,0.62,0.75,0.6,0.69,20231229_160028,RandomForestClassifier
-0.5,0.73,0.55,0.75,0.53,0.74,0.54,0.67,20231229_160028,XGBClassifier
-0.5,0.69,0.52,0.7,0.5,0.7,0.51,0.62,20231229_160110,DecisionTreeClassifier
-0.5,0.77,0.67,0.81,0.61,0.79,0.64,0.73,20231229_160111,RandomForestClassifier
-0.5,0.76,0.66,0.8,0.61,0.78,0.64,0.73,20231229_160111,XGBClassifier
+threshold,Precisión (Negativo),Precisión (Positivo),Recall (Negativo),Recall (Positivo),F1-Score (Negativo),F1-Score (Positivo),Accuracy,run_timestamp,model
+0.5,0.68,0.48,0.63,0.54,0.65,0.51,0.59,20231229_181242,DecisionTreeClassifier
+0.5,0.72,0.61,0.79,0.51,0.75,0.55,0.68,20231229_181242,RandomForestClassifier
+0.5,0.72,0.6,0.77,0.53,0.74,0.56,0.68,20231229_181243,XGBClassifier
