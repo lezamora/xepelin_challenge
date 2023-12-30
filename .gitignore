@@ -132,7 +132,6 @@ dmypy.json
 .DS_Store
 
 # Internal data
-data/
 logs/
 
 # End of https://www.gitignore.io/api/python
