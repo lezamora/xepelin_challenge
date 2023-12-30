@@ -8,53 +8,41 @@
 
 ## Descripción
 
-Descripción sobre el proyecto.
+Este repositorio tiene como objetivo desarrollar un modelo predictivo que intente resolver el caso de uso presentado por Xepelin como desafío técnico.
 
-## Modelo seleccionado: nombre del modelo
+## Utilización del proyecto
 
-Nombre del modelo seleccionado.
+Para poder replicar el código que resuelve el problema se proveen dos alternativas:
 
-## Bibliografīa
+### Virtualenvs
 
-En caso de que exista bibliografía al respecto listarla a continuación.
+### Docker
 
-- Bibliografía 1.
-- Bibliografía 2.
-- Bibliografía 3.
+## Estructura del proyecto
 
-## Fuentes de datos utilizadas
+- **data**
+  - *raw*: Datos sin procesar sin modificaciones.
+  - *intermediate*: Datos intermedios generados durante el procesamiento.
+  - *processed*: Datos procesados y listos para el entrenamiento del modelo.
+- **docs**: Carpeta para almacenar documentación relacionadas con el proyecto.
+- **images**: Carpeta para almacenar imágenes relacionadas a la documentación.
+- **metrics**: Carpeta para almacenar métricas y medidas de evaluación del modelo.
+- **models**: Carpeta para almacenar modelos entrenados.
+- **notebooks**: Carpeta que contiene Jupyter Notebooks utilizados para análisis y desarrollo.
+- **reports**: Carpeta para almacenar informes generados por el proyecto.
+- **xepelin**
+  - *figures*: Módulo para generar gráficos utilizados en el desarrollo del modelo.
+  - *evaluation*: Módulo para generar métricas utilizadas para el desarrollo del proyecto.
+- *.editorconfig*: Configuración del editor para mantener la consistencia del estilo de código.
+- *.gitignore*: Archivo de configuración Git para ignorar archivos y carpetas específicos.
+- *.pre-commit-config.yaml*: Configuración para pre-commit hooks que se ejecutan antes de confirmar cambios en Git.
+- *pyproject.toml*: Archivo de configuración para proyectos Python, utilizado para especificar dependencias y configuraciones del proyecto.
+- *requirements.txt*: Lista de dependencias del proyecto en formato de archivo de texto.
+- *setup.cfg*: Configuración adicional para el sistema de distribución de Python.
+- *setup.py*: Archivo de configuración para la distribución del proyecto.
+- *.dockerignore*: Archivo de configuración para Docker, especifica qué archivos y carpetas deben ser ignorados al construir imágenes Docker.
+- *Dockerfile*: Archivo de configuración para construir una imagen Docker del proyecto.
 
-- Fuente 1
-- Fuente 2
+## Documentación
 
-## Construcción del conjunto de entrenamiento, testeo y validación
-
-- Período de los datos de entrenamiento: Septiembre del 2019 hasta Agosto del 2020.
-- Estrategia de recolección: 30 días para generar las variables independientes y 15 días para generar el target.
-- Estrategia de evaluación: Cross validation en dev. Se útilizaron los últimos 2 meses para validar la generalización.
-- Selección del modelo:Se utilizó el **AUC** como métrica principal. En caso de empate, se evalua Precisión, Recall y F1.
-- Umbral seleccionado para determinar clase: 0.1
-
-## Variables seleccionadas
-
-- frecuencia: frecuencia de navegación del usuario dada por el rfv de 3 meses.
-- recencia: recencia del usuario dada por el rfv de 3 meses.
-- volumen: cantidad de notas navegadas del usuario dada por el rfv de 3 meses.
-- alta: el usuario es considerado una alta si en esos 15 dīas se suscribió.
-
-## Resultados
-
-| Stage | AUC  | Precision | Recall | F1   |
-| ----- | ---- | --------- | ------ | ---- |
-| DEV   | 0.75 | 0.01      | 0.69   | 0.01 |
-| TEST  | 0.67 | 0.01      | 0.53   | 0.01 |
-
-## Criterios de aceptación
-
-Describir que criterios se tuvieron en cuenta para aceptar al modelo como productivo.
-
-## Artefactos
-
-La documentación del caso de uso se encuentra en la siguiente página de [CONFLUENCE](LINKPAGINACUCONFLUENCE). Ver [plantilla](https://agea.atlassian.net/wiki/spaces/BIGAA/pages/258212333/Casos+de+uso).
-
-El código productivo se encuentra en el siguiente [REPOSITORIO](INSERTARLINKREPOBITBUCKET).
+Toda la documentación relacionada a la resolución del problema se encontrará divida en secciones para proveer mayor simplicidad en la lectura:
