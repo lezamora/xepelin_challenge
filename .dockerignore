@@ -1,0 +1,28 @@
+# Ignore deploy config files
+.*.yaml
+yaml
+Dockerfile
+.env
+.editorconfig
+.coveragerc
+.dockerignore
+*.cfg
+tox.ini
+*.toml
+
+# Ignore git files
+.git*
+
+# Ignore project files
+.editorconfig
+Makefile
+logs/
+src.egg-info/
+.tox/
+
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode files
+__pycache__/

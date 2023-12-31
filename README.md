@@ -6,17 +6,40 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 
+<p align="center"><img src="./images/logo.png" alt=""></p>
+
 ## Descripción
 
 Este repositorio tiene como objetivo desarrollar un modelo predictivo que intente resolver el caso de uso presentado por Xepelin como desafío técnico.
 
-## Utilización del proyecto
+## Ejecución del código
 
 Para poder replicar el código que resuelve el problema se proveen dos alternativas:
 
-### Virtualenvs
+### requirements.txt
+
+En la parte superior del proyecto se menciona que versión de python se utilizó para el desarrollo.
+Se puede usar el gestor de ambiente que se prefiera.
+
+```bash
+pip install -r requiremens.txt
+```
 
 ### Docker
+
+Como requisito tener docker instalado.
+
+1 - Construir la imagen
+
+```bash
+docker build -t nombre-de-la-imagen .
+```
+
+2 - Ejecutar el contenedor
+
+```bash
+docker run -p 8888:8888 nombre-de-la-imagen
+```
 
 ## Estructura del proyecto
 
@@ -29,11 +52,11 @@ Para poder replicar el código que resuelve el problema se proveen dos alternati
 - **metrics**: Carpeta para almacenar métricas y medidas de evaluación del modelo.
 - **models**: Carpeta para almacenar modelos entrenados.
 - **notebooks**: Carpeta que contiene Jupyter Notebooks utilizados para análisis y desarrollo.
+- **presentaciones**: Carpeta que contiene la presentación generada para los usuarios de negocio.
 - **reports**: Carpeta para almacenar informes generados por el proyecto.
-- **xepelin**
+- **xepelin**: Distribución creada para reutilizar funciones.
   - *figures*: Módulo para generar gráficos utilizados en el desarrollo del modelo.
   - *evaluation*: Módulo para generar métricas utilizadas para el desarrollo del proyecto.
-- *.editorconfig*: Configuración del editor para mantener la consistencia del estilo de código.
 - *.gitignore*: Archivo de configuración Git para ignorar archivos y carpetas específicos.
 - *.pre-commit-config.yaml*: Configuración para pre-commit hooks que se ejecutan antes de confirmar cambios en Git.
 - *pyproject.toml*: Archivo de configuración para proyectos Python, utilizado para especificar dependencias y configuraciones del proyecto.

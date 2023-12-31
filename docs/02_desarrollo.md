@@ -1,5 +1,7 @@
 # Desarrollo del modelo de clasifición
 
+<p align="center"><img src="../images/producto.png" alt=""></p>
+
 ## Descripción
 
 El objetivo de este documento es explicar el proceso que se llevo a cabo para desarrollar un modelo que resuelva el modelo propuesto. Si bien en los notebooks incluidos en este repositorio se encuentra documentado y explicado cada paso, aquí sintetizaremos lo más relevante. La estructura de este documento estará alineada con la metodología **CRISP-ML**, que es la metodología que se siguió para el este desarrollo.

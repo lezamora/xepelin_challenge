@@ -1,3 +1,7 @@
+## 
+
+<p align="center"><img src="../images/producto.png" alt=""></p>
+
 **Si se definen umbrales (expected values), ¿son coherentes con el problema a resolver?**
 Sí, los umbrales deben estar alineados con la gestión de riesgos y las decisiones operativas en el negocio de Financiamiento Directo.
 

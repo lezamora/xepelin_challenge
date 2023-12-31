@@ -1,5 +1,7 @@
 # Challenge DS Xepelin
 
+<p align="center"><img src="../images/producto.png" alt=""></p>
+
 ## 1 - Problema de negocio y entendimiento del problema
 
 ### ¿Cuál es exactamente el problema de negocio a resolver?

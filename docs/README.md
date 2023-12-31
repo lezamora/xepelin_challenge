@@ -1,5 +1,7 @@
 ## Documentación
 
+<p align="center"><img src="../images/producto.png" alt=""></p>
+
 Toda la documentación relacionada a la resolución del problema se encontrará divida en secciones para proveer mayor simplicidad en la lectura:
 
 | Nombre del Documento                           | Descripción                                                                                                                                           |
