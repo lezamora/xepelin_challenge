@@ -21,21 +21,29 @@ Para poder replicar el código que resuelve el problema se proveen dos alternati
 En la parte superior del proyecto se menciona que versión de python se utilizó para el desarrollo.
 Se puede usar el gestor de ambiente que se prefiera.
 
+1 - Instalar las dependencias:
+
 ```bash
 pip install -r requirements.txt
+```
+
+2 - Instalar la distribución interna:
+
+```bash
+pip install -e .
 ```
 
 ### Docker
 
 Como requisito tener docker instalado.
 
-1 - Construir la imagen
+1 - Construir la imagen:
 
 ```bash
 docker build -t nombre-de-la-imagen .
 ```
 
-2 - Ejecutar el contenedor
+2 - Ejecutar el contenedor:
 
 ```bash
 docker run -p 8888:8888 nombre-de-la-imagen
