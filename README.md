@@ -22,7 +22,7 @@ En la parte superior del proyecto se menciona que versión de python se utilizó
 Se puede usar el gestor de ambiente que se prefiera.
 
 ```bash
-pip install -r requiremens.txt
+pip install -r requirements.txt
 ```
 
 ### Docker
